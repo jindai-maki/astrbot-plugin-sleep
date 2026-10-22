@@ -1,0 +1,14 @@
+name: astrbot_plugin_sleep
+display_name: 睡觉模拟
+desc: 让机器人拥有人类般的作息与睡眠状态。用户说「快睡觉/去睡觉」等会哄睡机器人进入迷迷糊糊的瞌睡状态；进入睡着状态后，机器人不再回复普通消息，只有被连续 @ 好几条才会被吵醒。「起床/醒醒」能直接唤醒。为群聊和私聊提供真实的睡眠生命周期模拟。
+version: 1.0.0
+author: 大肥鱼
+repo: ""
+main: main.py
+support_platforms:
+  - aiocqhttp
+tags:
+  - 睡觉
+  - 作息
+  - 状态机
+  - 角色扮演
